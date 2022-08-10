@@ -1,0 +1,56 @@
+@import url("donate.css");
+
+.landing_page{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.heading_shikher{
+    font-size: 70px;
+}
+
+h3{
+    font-size: 28px;
+}
+
+#found_info{
+    margin-top: 150px;
+    color: #2F3C7E;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  .marquee {
+    overflow: hidden;
+  }
+  
+  .marquee-content {
+    display: flex;
+    animation: scrolling 30s linear infinite;
+  }
+  
+  .marquee-item {
+    flex: 0 0 16vw;
+    margin: 0 1vw;
+    flex: 0 0 20vw;
+    margin: 0 2vw;
+  }
+  
+  .marquee-item img {
+    display: block;
+    width: 50vh;
+    height: 30vh;
+    padding: 0 20px;
+  }
+  
+  @keyframes scrolling {
+    0% { transform: translateX(0); }
+    100% { transform: translatex(-144vw); }
+  }
+  

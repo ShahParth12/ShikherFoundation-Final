@@ -1,0 +1,26 @@
+@import url(donate.css  );
+
+input[type="number"] {
+    width: 20%;
+}
+
+.shop-back-link{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.shop-back-link a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.shop-back-link a:hover{
+    color: rgb(1, 88, 0);
+}
+
+@media screen and (max-width: 600px) {
+    input[type="number"] {
+        width: 100%;
+        padding: 0;
+        padding-left: 10%;
+    }
+}

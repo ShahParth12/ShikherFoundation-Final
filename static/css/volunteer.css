@@ -1,0 +1,8 @@
+@import url("donate.css");
+
+input{
+    padding: 5px 15px;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+  }

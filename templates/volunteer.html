@@ -1,0 +1,148 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volunteer</title>
+    <link rel="stylesheet" href="{% static 'css/volunteer.css' %}">
+</head>
+
+<body>
+    <div class="container">
+      <div class="navbar">
+        <a href="../index.html"><img src="{% static 'images/Shikher Foundations Logo 2021.png' %}"
+            class="logo" /></a>
+            <nav class="nav">
+              <ul>
+                <li><a href="home">Home</a></li>
+                <li><a href="about">About </a></li>
+                <li><a href="donate">Donate </a></li>
+                <li><a href="volunteer">Volunteer </a></li>
+                <li><a href="events">Events </a></li>
+                <li><a href="shop">Shop</a></li>
+                <li><a href="login">Login</a></li>
+              </ul>
+            </nav>
+      </div>
+      
+    
+            <!-- <h3>PLEASE FILL THIS FORM TO VOLUNTEER</h3>
+            <div class="form-data">
+                <table>
+                  <tbody>
+                    <tr>
+                      <td>Full Name:</td>
+                      <td><input class="contact-us-text" id="fullname" type="text" placeholder="Enter your Full name"
+                      required></td>
+                    </tr>
+            
+            <label>Contact Number</label>
+            <input id ="conno" type="tel" class="input-box" placeholder="0123456789" size="10"/>
+            <br />
+            <label>Address</label>
+            <input id ="addr" type="text" class="input-box" placeholder="Residential Address" />
+            <br />
+            <label>Date of Birth</label>
+            <input id ="dob" type="date" class="input-box" placeholder="DD/MM/YYYY" />
+            <br />
+            <label>Why do you wish to volunteer here?</label>
+            <input id="volinfo" type="text" class="input-box" placeholder="State your reason to volunteer here" />
+            <br />
+            <label>Have you volunteered at any other Foundation or NGO?</label>
+            <br />
+            <select id="prevvol">
+                <option value="yes">YES</option>
+                <option value="no">NO</option>
+            </select>
+            <br />
+            <button id ="sendbtn">Volunteer</button> -->
+            <div class="form-data">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Full Name:</td>
+                  <td><input class="contact-us-text" id="fullname" type="text" placeholder="Enter your Full name"
+                  required></td>
+                </tr>
+                <tr>
+                  <td>Contact Number:</td>
+                  <td><input id ="conno" type="tel" class="input-box" placeholder="0123456789"/></td>
+                </tr>
+                
+                <tr>
+                  <td>Date of Birth:</td>
+                  <td><input id ="dob" type="date" class="input-box" placeholder="DD/MM/YYYY" /></td>
+                </tr>
+                <tr>
+                  <td>Address:</td>
+                  <td><input class="contact-us-text" id="addr" type="text" placeholder="Flat no, Apartment Name,
+                    Landmark, Area, City, Pincode ." required></td>
+                </tr>
+                <tr>
+                    <td>Why do you wish to volunteer here?</td>
+                    <td><input id="volinfo" type="text" class="input-box" placeholder="State your reason to volunteer here" /></td>
+                </tr>
+                <tr>
+                  <td>Have you volunteered at any other Foundation or NGO?</td>
+                  <td><select id="prevvol">
+                    <option value="yes">YES</option>
+                    <option value="no">NO</option>
+                </select></td>
+                </tr>
+                <tr>
+                  <td><button id ="sendbtn">Volunteer</button></td>
+                </tr>
+              </tbody>
+            </table>
+
+          </div>
+
+
+
+            
+        <div class="footer">
+            <footer>
+              <div class="footdiv">
+                <div class="row justify-content-center">
+                  <div class="footer-col">
+                    <h3>Services</h3>
+                    <ul>
+                      <li><a href="#">about us</a></li>
+                      <li><a href="#">our services</a></li>
+                      <li><a href="#">privacy policy</a></li>
+                      <li><a href="#">affiliate program</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer-col">
+                    <h3>About</h3>
+                    <ul>
+                      <li><a href="#">FAQ</a></li>
+                      <li><a href="#">shipping</a></li>
+                      <li><a href="#">returns</a></li>
+                      <li><a href="#">payment options</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer-col">
+                    <h3>Socials</h3>
+                    <ul>
+                      <li><a href="https://www.instagram.com/shikherfoundation/">Instagram</a></li>
+                      <li><a href="#">Twitter</a></li>
+                      <li><a href="#">Linktree</a></li>
+                    </ul>
+                  </div>
+                  <p class="copyright">               © 2022</p>
+                </div>
+              </div>
+            </div>
+          </footer>
+        </div>
+      
+      <script type="module" src="{% static 'js/volunteer.js' %}"></script>
+  
+  </body>
+  
+  </html>
+            

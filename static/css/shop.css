@@ -1,0 +1,91 @@
+@import url(donate.css);
+
+
+
+body{
+    margin: 0px;
+    background-color: #fbeaeb99;
+}
+
+.btn-container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.btn-container button{
+    margin-top: 10px;;
+}
+
+.shop-heading{
+    color: #161c39;
+}
+
+.heading{
+    text-align: center;
+    font-style: bold;
+}
+.button{
+    margin: 10px;
+}
+
+.navbar{
+    background-color: #fbeaeb99;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    background-color: #fbeaeb99;
+}
+#output {
+    clear: both;
+}
+
+#checkoutdiv {
+    display: none;
+}
+
+.card{
+    background-color: #fbeaeb99;
+    width: 100%;
+    border: 2px solid #000;
+}
+
+.productItem btn{
+    background-color: transparent;
+}
+
+.img-fluid{
+    width: 100%;
+    height: 150px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.btn{
+    background-color: transparent;
+    border: 2px solid #000;
+    color: #000;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.btns-btm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn-success{
+    width: 200px;
+}
+
+#btn-primary-checkout{
+    width: 200px;
+}

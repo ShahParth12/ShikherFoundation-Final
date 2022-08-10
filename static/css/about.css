@@ -1,0 +1,93 @@
+@import url("donate.css");
+
+.video{
+    align-items: center;
+    margin: auto;
+    width: 50%;
+    padding: 20px 0px;
+}
+.info{
+   padding: 10px 0px;
+  margin-top: 10px;
+}
+
+.info .h2{
+    padding: 20px 0px;
+}
+.p{
+    padding: 20px 0px;
+}
+.img10-col{
+  flex-basis: 50%;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+.img10-col img{
+  width: 100%;
+  height: 50%;
+  margin: 10px;
+  padding: 10px;
+}
+
+.img8-col{
+  flex-basis: 50%;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  position: relative;
+}
+.img8-col img{
+  width: 100%;
+  height: 50%;
+  margin: 10px;
+  padding: 10px;
+}
+
+.col-mis{
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+}
+.row2{
+  text-align: center;
+    display: block;
+    height: 50%;
+}
+
+.row3{
+  display: flex;
+  margin: 30px;
+}
+
+.info-col{
+  flex-basis: 50%;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.info-col h1{
+ margin: 10px;
+ padding: 20px;
+}
+.info-col p{
+  margin: 20px;
+  padding: 20px;
+  
+}
+
+.img2-col{
+  flex-basis: 50%;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.img2-col img{
+  width: 100%;
+  height: 100%;
+  margin: 20px;
+  padding: 20px;
+}

@@ -1,0 +1,222 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Shop</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css"
+        integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/shop.css' %}">
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="../index.html"><img src="{% static 'images/Shikher Foundations Logo 2021.png' %}"
+            class="logo" /></a>
+        <nav class="nav">
+          <ul>
+            <li><a href="home">Home</a></li>
+            <li><a href="about">About </a></li>
+            <li><a href="donate">Donate </a></li>
+            <li><a href="volunteer">Volunteer </a></li>
+            <li><a href="events">Events </a></li>
+            <li><a href="shop">Shop</a></li>
+            <li><a href="login">Login</a></li>
+          </ul>
+        </nav>
+ 
+      </div>
+
+    <header class="header">
+        <div class="heading">
+            <h1 class="shop-heading">SHOP</h1>
+        </div>
+        <!-- <div class="btns-btm">
+            <strong><span class="total"></span></strong>
+            <span class="btn btn-success" data-toggle="modal" data-target="#cart">Cart</span><a
+                href="checkout.html" class="btn btn-primary" id="btn-primary-checkout">Checkout</a>
+        </div> -->
+    </header>
+
+    <div class="items-list">
+
+    </div>
+
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-block">
+                    <h3 class="card-title">Product 1</h3>
+                    <h6 class="card-subtitle text-muted">₹1200.00</h6> <img src="{% static 'images/image5.jpg' %}"
+                        class="img-fluid">
+                </div>
+                <div class="card-block">
+                    <div class="card-text">Product information description why its the best product ever
+                        blah blah <a href="#" class="card-link productItem btn btn-primary" data-name="Product 1"
+                            data-s="XL" data-price="120000" data-id="1">Add to
+                            Cart</a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-block">
+                    <h3 class="card-title">Product 2</h3>
+                    <h6 class="card-subtitle text-muted">₹1600.00</h6> <img src="../image2.jpg" class="img-fluid">
+                </div>
+                <div class="card-block">
+                    <div class="card-text">Product information description why its the best product ever
+                        blah blah <a href="#" class="productItem btn btn-primary" data-name="Product 2" data-s=""
+                            data-price="160000" data-id="2">Add to Cart</a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-block">
+                    <h3 class="card-title">Product 3</h3>
+                    <h6 class="card-subtitle text-muted">₹1100.00</h6> <img src="../images/image4.jpg"
+                        class="img-fluid">
+                </div>
+                <div class="card-block">
+                    <div class="card-text">Product information description why its the best product ever
+                        blah blah <a href="#" class="productItem btn btn-primary" data-name="Product 3" data-s=""
+                            data-price="110000" data-id="3">Add to Cart</a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-block">
+                    <h3 class="card-title">Product 4</h3>
+                    <h6 class="card-subtitle text-muted">₹450.00</h6> <img src="../images/image5.jpg" class="img-fluid">
+                </div>
+                <div class="card-block">
+                    <div class="card-text">Product information description why its the best product ever
+                        blah blah <a href="#" class="productItem btn btn-primary" data-name="Product 4" data-s=""
+                            data-price="45000" data-id="4">Add to Cart</a> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-block">
+                    <h3 class="card-title">Product 5</h3>
+                    <h6 class="card-subtitle text-muted">₹520.00</h6> <img src="../images/image3.jpg" class="img-fluid">
+                </div>
+                <div class="card-block">
+                    <div class="card-text">Product information description why its the best product ever
+                        blah blah <a href="#" class="productItem btn btn-primary" data-name="Product 5" data-s=""
+                            data-price="52000" data-id="5">Add to Cart</a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-block">
+                    <h3 class="card-title">Product 6</h3>
+                    <h6 class="card-subtitle text-muted">₹1650.00</h6> <img src="../images/image4.jpg"
+                        class="img-fluid">
+                </div>
+                <div class="card-block">
+                    <div class="card-text">Product information description why its the best product ever
+                        blah blah <a href="#" class="productItem btn btn-primary" data-name="Product 6" data-s=""
+                            data-price="165000" data-id="6">Add to Cart</a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-block">
+                    <h3 class="card-title">Product 7</h3>
+                    <h6 class="card-subtitle text-muted">₹1600.00</h6> <img src="../image2.jpg" class="img-fluid">
+                </div>
+                <div class="card-block">
+                    <div class="card-text">Product information description why its the best product ever
+                        blah blah <a href="#" class="productItem btn btn-primary" data-name="Product 7" data-s=""
+                            data-price="160000" data-id="7">Add to Cart</a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-block">
+                    <h3 class="card-title">Product 8</h3>
+                    <h6 class="card-subtitle text-muted">₹100.00</h6> <img src="../images/image4.jpg" class="img-fluid">
+                </div>
+                <div class="card-block">
+                    <div class="card-text">Product information description why its the best product ever
+                        blah blah <a href="#" class="productItem btn btn-primary" data-name="Product 8" data-s=""
+                            data-price="10000" data-id="8">Add to Cart</a> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modals -->
+    <div class="modal fade" id="cart" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                    <h4 class="modal-title">Shopping Cart</h4>
+                </div>
+                <div class="modal-body">
+                    <table class="table table-hover">
+                        <thead class="thead-inverse">
+                            <tr>
+                                <th>Qty</th>
+                                <th>Item Name</th>
+                                <th>Cost</th>
+                                <th class="text-xs-right">Subtotal</th>
+                            </tr>
+                        </thead>
+                        <tbody id="output"> </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-warning" data-dismiss="modal">Continue Shopping</button><a
+                        href="checkout" class="btn btn-primary">Proceed to checkout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="htop">
+        <div id="checkoutdiv " class="btn-container">
+            <div class="row">
+                <div class="col-md-6 text-xs-right ">(<span class="items text-muted"></span>
+                    <small>items</small>) <strong><span class="total"></span></strong>
+                </div>
+                    <div class="btns-btm">
+                        <span class="btn btn-success" data-toggle="modal" data-target="#cart">Cart</span><a
+                            href="checkout" class="btn btn-primary" id="btn-primary-checkout">Checkout</a>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="btns-btm">
+        <strong><span class="total"></span></strong>
+        <span class="btn btn-success" data-toggle="modal" data-target="#cart">Cart</span><a
+            href="checkout.html" class="btn btn-primary" id="btn-primary-checkout">Checkout</a>
+    </div> -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js"
+        integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js"
+        integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK"
+        crossorigin="anonymous"></script>
+    <script src="{% static 'js/shop.js' %}"></script>
+</body>
+
+</html>

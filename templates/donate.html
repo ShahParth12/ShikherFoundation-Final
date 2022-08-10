@@ -1,0 +1,155 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate</title>
+    <link rel="stylesheet" href="{% static 'css/donate.css' %}">
+</head>
+
+<body>
+    <div class="container">
+      <div class="navbar">
+        <img src="{% static 'images/Shikher Foundations Logo 2021.png' %}"
+            class="logo" /></a>
+            <nav class="nav">
+              <ul>
+                <li><a href="home">Home</a></li>
+                <li><a href="about">About </a></li>
+                <li><a href="donate">Donate </a></li>
+                <li><a href="volunteer">Volunteer </a></li>
+                <li><a href="events">Events </a></li>
+                <li><a href="shop">Shop</a></li>
+                <li><a href="login">Login</a></li>
+              </ul>
+            </nav>
+      </div>
+      <div class="flex">
+        <div class="flexbox">
+
+        <div class="info" id="donationinfo">
+          <h2>Donation</h2>
+          <p>We want your support by gathering your unused items from your home<br>
+            and office which you will scrap not to
+            ever use aagain.<br> This may be scrap for you but can be new for
+            someone in need.</p>
+          <p>This donation will help to fulfill the basic needs of the under<br>
+            privileged people and donations help
+            sustain
+            our organization.<br> This will also benefit the community which we<br>
+            serve and together we can bring smile on
+            a
+            lot of people's faces. </p>
+          <p>Since our inception we have received donation from 1000+ donors.</p>
+        </div>
+
+        <div class="info" id="items">
+          <h2>What can be donated?</h2>
+          <p>List of things which can be donated:</p>
+          <ul>
+            <li>All standard college/school/technical education/old books</li>
+            <li>Novels & Story books</li>
+            <li>Blank note books, register, bill book etc</li>
+            <li>News Papers & Stationery</li>
+            <li>Used Laptops, Computers & any electronic parts</li>
+            <li>Used Sewing Machine & any used electronic appliances</li>
+            <li>Used watter bottles, tiffin box, compass box,<br> school bag/
+              officebag/ travel bag</li>
+            <li>Old clothes/ Uniforms</li>
+            <li>Any scrap</li>
+          </ul>
+        </div>
+        <br>
+      </div>
+      <div class="img-container">
+        <img src="{% static 'images/image2.jpg' %}" alt="Image1" class="image" id="img1">
+      </div>
+
+    </div>
+     <div class="form-data">
+        <table>
+          <tbody>
+            <tr>
+              <td>Full Name:</td>
+              <td><input class="contact-us-text" id="fullname" type="text" placeholder="Enter your Full name"
+              required></td>
+            </tr>
+            <tr>
+              <td>Email Id:</td>
+              <td><input class="contact-us-text" id="email" type="email" placeholder="Enter your Email id"
+              required></td>
+            </tr>
+            <tr>
+              <td>Phone Number:</td>
+              <td><input class="contact-us-text" id="phno" type="text" placeholder="Enter your number" required></td>
+            </tr>
+            <tr>
+              <td>Address:</td>
+              <td><input class="contact-us-text" id="addr" type="text" placeholder="Flat no, Apartment Name,
+                Landmark, Area, City, Pincode ." required></td>
+            </tr>
+            <tr>
+                <td>Things you will be donating:</td>
+                <td><input class="contact-us-text" id="things" type="text"placeholder="Pens , books , clothes etc." required></td>
+            </tr>
+            <tr>
+              <td>Number of bags:</td>
+              <td><input class="contact-us-text" id="nob" type="number" required></td>
+            </tr>
+            <tr>
+              <td id="btn"><button id="senddata">DONATE NOW</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+        
+
+
+
+
+        <div class="footer">
+          <footer>
+            <div class="footdiv">
+              <div class="row justify-content-center">
+                <div class="footer-col">
+                  <h3>Services</h3>
+                  <ul>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">our services</a></li>
+                    <li><a href="#">privacy policy</a></li>
+                    <li><a href="#">affiliate program</a></li>
+                  </ul>
+                </div>
+                <div class="footer-col">
+                  <h3>About</h3>
+                  <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">shipping</a></li>
+                    <li><a href="#">returns</a></li>
+                    <li><a href="#">payment options</a></li>
+                  </ul>
+                </div>
+                <div class="footer-col">
+                  <h3>Socials</h3>
+                  <ul>
+                    <li><a href="https://www.instagram.com/shikherfoundation/">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Linktree</a></li>
+                  </ul>
+                </div>
+                <p class="copyright">               © 2022</p>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    
+    <script type="module" src="{% static 'js/donate.js' %}"></script>
+
+</body>
+
+</html>

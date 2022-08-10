@@ -1,0 +1,26 @@
+@import url("donate.css");
+
+
+.loginbox{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(0,-50%);
+}
+
+.login-form{
+    display: inline-block;
+    text-align: center;
+}
+
+.login-failed{
+    color: red;
+}
+
+.footdiv{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+
+}
