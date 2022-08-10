@@ -1,0 +1,1 @@
+web: gunicorn shikherngo.wsgi --log-file -
