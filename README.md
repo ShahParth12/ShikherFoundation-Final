@@ -1,1 +1,1 @@
-Website deployed at shkherfoundation.herokuapp.com
+Website deployed at shikherfoundation.herokuapp.com
