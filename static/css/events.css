@@ -1,95 +1,93 @@
 @import url("donate.css");
 
-.events-intro{
-    margin-top: 150px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .events-heading{
-    font-size: 50px;
-    color: #3457D5;
-  }
-  
-  .events-intro-info{
-    margin: 20px 120px 0 120px;
-    text-align: center;
-  }
-  
-  @media screen and (max-width: 600px) {
-    .events-intro-info{
-      margin: 0 30px 0 30px;
-      text-align: center;
-    }
-  }
-
-.posts{
-    flex: 9;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 100px;
-    align-items: center;
-    justify-content: center;
+.events-intro {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.post{
-    width: 500px;
-    margin: 0px 25px 40px 25px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px 0px #3366cc;
-    padding: 10px;
+.events-heading {
+  font-size: 50px;
+  color: #3457D5;
 }
 
-.postImg{
-    width: 90%;
-    height: 250px;
-    object-fit: cover;
-    border-radius: 5px;
+.events-intro-info {
+  margin: 20px 120px 0 120px;
+  text-align: center;
 }
 
-.postInfo{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.posts {
+  flex: 9;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  align-items: center;
+  justify-content: center;
 }
 
-.postTitle{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 600;
-    font-size: 20px;
-    color: #2F3C7E;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 0px;
+.post {
+  width: 500px;
+  margin: 0px 25px 40px 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px #3366cc;
+  padding: 10px;
 }
 
-.postDate{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-style: italic;
-    font-size: 13px;
-    color: #161c39;
+.postImg {
+  width: 90%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.postInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.postTitle {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #2F3C7E;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.postDate {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: italic;
+  font-size: 13px;
+  color: #161c39;
 
 }
 
-.postDesc{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-    margin-top: 5px;
-    font-size: 16px;
-    line-height: 24px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 4;
-    -webkit-box-orient: vertical;  
+.postDesc {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-top: 5px;
+  font-size: 16px;
+  line-height: 24px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
 }
 
 @media screen and (max-width: 600px) {
-    .posts{
-        margin-top: 200px;
-    }
+  .posts {
+    margin-top: 200px;
+  }
+
+  .events-intro-info {
+    margin: 0 30px 0 30px;
+    text-align: center;
+  }
 }
